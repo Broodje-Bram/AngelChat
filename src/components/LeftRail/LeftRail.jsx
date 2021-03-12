@@ -19,7 +19,7 @@ export const LeftRail = () => {
             </div>
           ) : (
             <div className="chat-list-container no-chats-yet">
-              <h3>No Chats Yet</h3>
+              <h3>There are no Chats Yet</h3>
             </div>
           )}
           <button className="create-chat-button" onClick={createChatClick}>

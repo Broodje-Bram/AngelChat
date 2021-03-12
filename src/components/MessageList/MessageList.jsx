@@ -39,7 +39,7 @@ export const MessageList = () => {
           </div>
         ))
       ) : (
-        <div className="no-messages-yet">No messages yet</div>
+        <div className="no-messages-yet">There are no Messages yet</div>
       )}
     </div>
   );

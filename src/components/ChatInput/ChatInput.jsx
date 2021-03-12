@@ -40,7 +40,7 @@ export const ChatInput = () => {
           }}
           className="attachment-icon"
         >
-          <Icon name="attach" color="grey" />
+          <Icon name="attach" color="blue" />
         </div>
         <input
           value={chatInputText}
@@ -54,7 +54,7 @@ export const ChatInput = () => {
           onChange={e => setChatInputText(e.target.value)}
         />
         <div onClick={sendChatMessage} className="send-message-icon">
-          <Icon name="send" color="grey" />
+          <Icon name="send" color="blue" />
         </div>
       </div>
 

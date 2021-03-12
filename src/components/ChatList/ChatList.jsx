@@ -28,7 +28,7 @@ export const ChatList = () => {
           >
             {c.people.length === 1 ? (
               <>
-                <Icon circular inverted color="violet" name="user cancel" />
+                <Icon circular inverted color="purple" name="user cancel" />
                 <div className="chat-list-preview">
                   <div className="preview-username">No One Added Yet</div>
                 </div>
