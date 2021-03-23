@@ -210,7 +210,6 @@ code {
   display: flex;
   justify-content: center;
   background-color: #212121;
-  background-color: red;
 }
 .no-chat-selected {
   display: flex;
